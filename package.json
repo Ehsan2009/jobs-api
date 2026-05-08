@@ -1,9 +1,12 @@
 {
   "name": "jobs_api",
   "version": "1.0.0",
+  "engines": {
+  "node": "22.x"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
